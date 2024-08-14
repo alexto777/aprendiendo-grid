@@ -1,0 +1,13 @@
+div.contenedor {
+  display: grid;
+  grid-template-columns: minmax(100px, 1fr) 5fr;
+}
+
+aside {
+  border: 1px solid red;
+  min-height: 100dvh;
+}
+
+main {
+  border: 1px solid blue;
+}
